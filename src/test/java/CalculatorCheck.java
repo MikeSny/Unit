@@ -29,6 +29,13 @@ public class CalculatorCheck {
 
         }
         @Test
+        public void remainderTest2(){
+            int result = Calculator.remainder(3,3);
+            assertEquals("3%3=0",0,result);
+
+        }
+
+        @Test
         public void divideTest(){
             int result = Calculator.divide(3,2);
             assertEquals("3/2=1",1,result);
